@@ -17,13 +17,13 @@ $gaps-total-width: ($days-in-week - 1) * $calendar-gap;
 $paddings-total-width: $calendar-padding * 2;
 $calendar-width: $days-total-width + $gaps-total-width + $paddings-total-width;
 $week-days: (
-  mon: 1,
-  tue: 2,
-  wed: 3,
-  thu: 4,
-  fri: 5,
-  sat: 6,
-  sun: 7,
+  sun: 1,
+  mon: 2,
+  tue: 3,
+  wed: 4,
+  thu: 5,
+  fri: 6,
+  sat: 7,
 );
 
 .main {
